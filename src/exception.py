@@ -19,6 +19,8 @@ class CustomException(Exception):
         return self.error_message
     
 # driver code for verification 
+
+
 # if __name__=="__main__":
 #     try:
 #         a=1/0
