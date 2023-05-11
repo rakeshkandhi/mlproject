@@ -1,2 +1,5 @@
+matplotlib==3.7.1
 numpy==1.24.3
--e .
+pandas==2.0.1
+seaborn==0.12.2
+six==1.16.0
