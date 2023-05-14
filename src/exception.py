@@ -17,7 +17,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-# driver code for verification 
+# driver code
 
 
 # if __name__=="__main__":
