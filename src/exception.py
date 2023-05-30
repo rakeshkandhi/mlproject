@@ -1,5 +1,4 @@
 import sys
-import logging 
 import src.logger
 
 def error_message_details(error,error_detail:sys):
@@ -18,7 +17,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-# driver code for verification 
+# driver code
 
 
 # if __name__=="__main__":
