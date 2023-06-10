@@ -18,7 +18,14 @@
             align-items: center;
             justify-content: center;
         }
-
+        .mb-3{
+            padding:20px;
+        }
+        .predict-btn{
+            margin-left:30%;
+            display:flex;
+            align-items:center;
+        }
         h1 {
             padding: 20px;
         }
@@ -99,11 +106,11 @@
                 <input class="form-control" type="number" name="writing_score" placeholder="Enter your Reading Score"
                     min="0" max="100" />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 predict-btn">
                 <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
             </div>
         </form>
-        <h2>THE prediction is {{results}}</h2>
+        <h2>The Prediction is :- {{results}}</h2>
     </div>
 </body>
 
